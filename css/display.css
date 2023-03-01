@@ -1,0 +1,27 @@
+div p.alignJustify {
+    text-align: justify;
+}
+
+div p.alignLeft {
+    text-align: left;
+}
+
+div p.alignRight {
+    text-align: right;
+}
+
+div p.alignCenter {
+    text-align: center;
+}
+
+div h1.alignLeft {
+    text-align: left;
+}
+
+div h1.alignCenter {
+    text-align: center;
+}
+
+div h1.alignRight {
+    text-align: right;
+}

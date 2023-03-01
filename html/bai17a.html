@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="vn">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 17a</title>
+</head>
+<body style="background-color: rgb(236, 192, 110);">
+    <h1 style="text-align: center;">Survey From</h1>
+    <p>If you are interested in purchasing one or more of our products, before ordering please complete some or all of the following survey for our marketing department. Answering any question is optional, and all information will be kept strictly confidnetial. Thank you very much for your time!</p><br>
+    <ol type="1">
+        <li>What is your name?</li>
+        <input type="text" name="name" id="name">
+        <li>What is your date of birth?</li>
+        <label for="date">Month: </label>
+        <select name="select" id="select">
+            <option value="1">January</option>
+            <option value="2">January</option>
+            <option value="3">March</option>
+            <option value="4">April</option>
+            <option value="5">May</option>
+            <option value="6">June</option>
+            <option value="7">July</option>
+            <option value="8">August</option>
+            <option value="9">September</option>
+            <option value="10">October</option>
+            <option value="11">November</option>
+            <option value="12">December</option>
+        </select>
+        <label for="date">Date: </label>
+        <select name="select" id="select" style="width: 50px;">
+            <option value="01">01</option>
+            <option value="02">02</option>
+            <option value="03">03</option>
+            <option value="04">04</option>
+            <option value="05">05</option>
+            <option value="06">06</option>
+            <option value="07">07</option>
+            <option value="08">08</option>
+            <option value="09">09</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option value="30">30</option>
+            <option value="31">31</option>
+        </select>
+        <label for="date">Year: </label><input type="year" name="year" id="year" style="width: 50px;">
+        <li>What is your mailing address (if you would like to have a hard copy of our catalog sent to you)?</li>
+        <textarea name="address" id="address" cols="50" rows="5">Number/P.0. Box/Route:
+Street/Avenue/Road:
+City:
+State/Zip:</textarea>
+        <li>What is your email address?</li>
+        <input type="text" name="email address" id="email address" style="width: 180px;">
+        <li>Have you viewed our online product catalog?</li>
+        <input type="radio" name="answer" value="yes">Yes
+        <input type="radio" name="answer" value="no">No<br>
+        <li>If so what product(s), besides the one you are ordering, might you be interested in purchasing in the future? (Check all that apply)</li>
+        <input type="checkbox" name="answer" id="vcr" value="vcr">VCR<br>
+        <input type="checkbox" name="answer" id="tv" value="tv">Big Screen TV<br>
+        <input type="checkbox" name="answer" id="audio" value="audio">Audio Equipment<br>
+        <input type="checkbox" name="answer" id="video" value="video">Video Equipment<br>
+        <input type="checkbox" name="answer" id="camera" value="camera">Camera Equipment<br>
+        <input type="checkbox" name="answer" id="other" value="other">Other <input type="text" name="other" id="other" value="Please List:"><br>
+        <li>Do you have any questions, comments or suggestion before proceeding to the Order Form?</li>
+        <textarea name="answer" id="orderform" cols="50" rows="5">Your input:</textarea>
+    </ol>
+    <table>
+        <tr>
+            <td><input type="button" value="Send Form" style="margin-left: 300px;"></td>
+            <td><input type="button" value="Clear Form" style="margin-left: 20px;"></td>
+        </tr>
+    </table>
+</body>
+</html>

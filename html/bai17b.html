@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="vn">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 17b</title>
+</head>
+<body>
+    <label for="html">Browser: </label>
+    <select name="browser" id="browser" style="width: 150px;">
+        <option value="0"></option>
+        <option value="1">Google</option>
+        <option value="2">Microsoft Edge</option>
+    </select>
+    <br><br>
+    <label for="html">Usename: </label>
+    <input type="text" name="usename" id="usename">
+    <br><br>
+    <label for="html">Encryption:</label>
+    <select name="resolution" id="resolution">
+        <option value="0">2048 (High Grade)</option>
+        <option value="1">1080</option>
+        <option value="2">720</option>
+        <option value="3">480</option>
+    </select>
+    <br><br>
+    <form oninput="x.value=parseInt(a.value)">
+        0<input type="range" id="a" value="0">100
+        <br>
+        <output name="x" for="a" style="border: 1px solid; "></output>
+    </form>
+    <br>
+    <label for="html">Birthday: </label>
+    <input type="date"><br><br>
+    <label for="html">Select your favorite color: </label>
+    <input type="color" name="favorite" id="favorite"><br><br>
+    <label for="html">Select a week: </label>
+    <input type="week"><br><br>
+    <label for="html">Birthday (date and time): </label>
+    <input type="datetime"><br><br>
+    <label for="html">E-mail: </label>
+    <input type="email"><br><br>
+    <label for="html">Search Google: </label>
+    <input type="search"><br><br>
+    <label for="html">Telephone: </label>
+    <input type="tel"><br><br>
+    <label for="html">Add your homepage: </label>
+    <input type="text"><br><br>
+    <input type="button" value="Submit">
+    <p><b>Note:</b> The data list tag is not supported in Safari or IE9 (and earlier)</p>
+</body>
+</html>
